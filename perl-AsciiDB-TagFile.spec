@@ -3,7 +3,7 @@ Summary:	AsciiDB-TagFile perl module
 Summary(pl):	Modu³ perla AsciiDB-TagFile
 Name:		perl-AsciiDB-TagFile
 Version:	1.06
-Release:	1
+Release:	2
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
@@ -42,5 +42,4 @@ rm -rf $RPM_BUILD_ROOT
 %doc *.gz
 %dir %{perl_sitelib}/AsciiDB
 %{perl_sitelib}/AsciiDB/*.pm
-%dir %{perl_sitearch}/auto/AsciiDB
 %{_mandir}/man3/*
