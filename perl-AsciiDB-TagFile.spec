@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define		pdir	AsciiDB
-%define		pnam	TagFile
+%define	pdir	AsciiDB
+%define	pnam	TagFile
 Summary:	AsciiDB::TagFile - tie class for a simple ASCII database
 Summary(pl):	AsciiDB::TagFile - powi±zanie klasy z prost± baz± danych w ASCII 
 Name:		perl-AsciiDB-TagFile
