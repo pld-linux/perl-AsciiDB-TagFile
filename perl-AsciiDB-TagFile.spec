@@ -4,10 +4,10 @@ Summary(pl):	Modu³ perla AsciiDB-TagFile
 Name:		perl-AsciiDB-TagFile
 Version:	1.05
 Release:	3
-Copyright:	GPL
+License:	GPL
 Group:		Development/Languages/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
-Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/AsciiDB/AsciiDB-TagFile-%{version}.tar.gz
+Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/AsciiDB/AsciiDB-TagFile-%{version}.tar.gz
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl >= 5.005_03-14
 %requires_eq	perl
@@ -18,7 +18,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 AsciiDB-TagFile allows to manage a simple ASCII database.
 
 %description -l pl
-AsciiDB-TagFile pozwala na korzystanie z prostej, tekstowej bazy danych.
+AsciiDB-TagFile pozwala na korzystanie z prostej, tekstowej bazy
+danych.
 
 %prep
 %setup -q -n AsciiDB-TagFile-%{version}
