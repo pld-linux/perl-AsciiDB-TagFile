@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	AsciiDB
 %define		pnam	TagFile
-Summary:	AsciiDB-TagFile perl module
-Summary(pl):	Modu³ perla AsciiDB-TagFile
+Summary:	AsciiDB::TagFile perl module
+Summary(pl):	Modu³ perla AsciiDB::TagFile
 Name:		perl-AsciiDB-TagFile
 Version:	1.06
 Release:	5
@@ -15,10 +15,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-AsciiDB-TagFile allows to manage a simple ASCII database.
+AsciiDB::TagFile allows to manage a simple ASCII database.
 
 %description -l pl
-AsciiDB-TagFile pozwala na korzystanie z prostej, tekstowej bazy
+AsciiDB::TagFile pozwala na korzystanie z prostej, tekstowej bazy
 danych.
 
 %prep
