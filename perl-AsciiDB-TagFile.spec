@@ -9,7 +9,7 @@ Summary:	AsciiDB::TagFile - tie class for a simple ASCII database
 Summary(pl):	AsciiDB::TagFile - powi±zanie klasy z prost± baz± danych w ASCII 
 Name:		perl-AsciiDB-TagFile
 Version:	1.06
-Release:	6
+Release:	7
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
