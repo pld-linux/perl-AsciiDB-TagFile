@@ -1,12 +1,13 @@
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	AsciiDB
 %define		pnam	TagFile
-Summary:	AsciiDB::TagFile perl module
-Summary(pl):	Modu³ perla AsciiDB::TagFile
+Summary:	AsciiDB::TagFile - tie class for a simple ASCII database
+Summary(pl):	AsciiDB::TagFile - powi±zanie klasy z prost± baz± danych w ASCII 
 Name:		perl-AsciiDB-TagFile
 Version:	1.06
 Release:	6
-License:	GPL
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	ba1ef6144e2ca462c46a6b4f83df9e7a
