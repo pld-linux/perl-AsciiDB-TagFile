@@ -6,7 +6,7 @@
 %define		pdir	AsciiDB
 %define		pnam	TagFile
 Summary:	AsciiDB::TagFile - tie class for a simple ASCII database
-Summary(pl):	AsciiDB::TagFile - powi±zanie klasy z prost± baz± danych w ASCII 
+Summary(pl.UTF-8):   AsciiDB::TagFile - powiÄ…zanie klasy z prostÄ… bazÄ… danych w ASCII 
 Name:		perl-AsciiDB-TagFile
 Version:	1.06
 Release:	7
@@ -23,7 +23,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 AsciiDB::TagFile allows to manage a simple ASCII database.
 
-%description -l pl
+%description -l pl.UTF-8
 AsciiDB::TagFile pozwala na korzystanie z prostej, tekstowej bazy
 danych.
 
