@@ -1,12 +1,12 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	AsciiDB
 %define		pnam	TagFile
+%include	/usr/lib/rpm/macros.perl
 Summary:	AsciiDB::TagFile - tie class for a simple ASCII database
-Summary(pl.UTF-8):	AsciiDB::TagFile - powiązanie klasy z prostą bazą danych w ASCII 
+Summary(pl.UTF-8):	AsciiDB::TagFile - powiązanie klasy z prostą bazą danych w ASCII
 Name:		perl-AsciiDB-TagFile
 Version:	1.06
 Release:	8
@@ -15,8 +15,9 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	ba1ef6144e2ca462c46a6b4f83df9e7a
-BuildRequires:	rpm-perlprov >= 4.1-13
+URL:		http://search.cpan.org/dist/AsciiDB-TagFile/
 BuildRequires:	perl-devel >= 1:5.8.0
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
