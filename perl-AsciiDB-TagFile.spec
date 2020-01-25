@@ -4,7 +4,6 @@
 
 %define		pdir	AsciiDB
 %define		pnam	TagFile
-%include	/usr/lib/rpm/macros.perl
 Summary:	AsciiDB::TagFile - tie class for a simple ASCII database
 Summary(pl.UTF-8):	AsciiDB::TagFile - powiązanie klasy z prostą bazą danych w ASCII
 Name:		perl-AsciiDB-TagFile
